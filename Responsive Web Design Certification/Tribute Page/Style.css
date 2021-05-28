@@ -3,4 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color:#695348 ;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
 
+nav > a{
+    color:rgb(243, 233, 233);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: large;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+    .info-header{
+     font-size: 50px;
+     text-align: left;
+     display: flex;
+     justify-content: left;
+     padding: 100px 100px 100px 0;
+
+}
+
+ .info-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.info-header img{
+  height: 450px;;
+
+}
+
+.info-header h1{
+    color: #fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 61%;
+    color: #fff;;
+}
