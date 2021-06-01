@@ -5,6 +5,8 @@
 }
 header{
     background-color:#695348 ;
+   display: block;
+  
 }
 nav{
     text-align: right;
@@ -23,11 +25,11 @@ nav > a:hover{
 }
 
     .info-header{
-     font-size: 50px;
+   font-size: 50px;
      text-align: left;
      display: flex;
      justify-content: left;
-     padding: 100px 100px 100px 0;
+     padding: 100px 100px 50px ;
 
 }
 
@@ -39,16 +41,26 @@ nav > a:hover{
 
 
 .info-header img{
-  height: 450px;;
+  height: 450px;
+  z-index: 1;
+
 
 }
 
+h1{
+    color: rgb(243, 236, 236);
+}
+
+}
 .info-header h1{
-    color: #fff;
+    color: rgb(243, 236, 236);
 }
+
 .wave{
-    position: absolute;
+    position: relative;
     bottom: 0;
-    width: 61%;
+    width: 100%;
     color: #fff;;
+    
+    
 }
