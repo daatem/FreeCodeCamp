@@ -24,7 +24,7 @@ nav > a:hover{
     text-decoration: underline;
 }
 
-    .info-header{
+.info-header{
    font-size: 50px;
      text-align: left;
      display: flex;
@@ -62,5 +62,35 @@ h1{
     width: 100%;
     color: #fff;;
     
-    
+}
+
+.about{
+    background-color: #F5E3D1;
+}
+
+
+.about h2 {
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+
+.about p {
+   position: relative;
+   left: 200px;
+   bottom:200px;
+
+}
+
+.inventions{
+    background-color: #FCECD5;
+}
+.inventions h2{
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 5%;
+}
+
+.links{
+    background-color: #C3986D;
 }
